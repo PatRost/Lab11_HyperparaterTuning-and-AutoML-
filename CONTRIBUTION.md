@@ -23,11 +23,22 @@ My main contribution was completing the technical notebook, checking the results
 
 ---
 
-### Member 2: [Enter Full Name]
+### Member 2: Kenneth Kouokam
 
-**Contribution:**
+My contribution to Lab 11 focuses on interpreting the baseline Random Forest result and explaining
+how it differs from the tuning scores. The supplied notebook uses a 70/30 split of the 150 Iris
+observations, giving 105 training examples and 45 test examples. Patrick reported 100% baseline
+test accuracy, meaning all 45 test flowers were classified correctly. My section explains that this
+result describes performance on one held-out test set and does not guarantee perfect predictions on
+every future example.
 
----
+I also explain the reported 94.29% cross-validation score achieved by both Grid Search and Random
+Search. These searches evaluate candidate settings using five folds within the training data, rather
+than using the 45 test flowers. The lower percentage therefore does not, by itself, mean that tuning
+reduced performance. My analysis recommends comparing baseline and tuned models under the
+same evaluation conditions, keeping the test set separate from hyperparameter selection. It also
+explains that equal search scores do not necessarily mean the selected settings or predictions are
+identical.
 
 ### Member 3: [Enter Full Name]
 
