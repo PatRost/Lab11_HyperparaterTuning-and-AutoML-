@@ -58,9 +58,9 @@ under matching conditions and explain both the results and their limits. This ro
 the idea of tuning to the practical question of whether a comparison actually supports the conclusion
 being made.
 
-### Member 3: [Enter Full Name]
+### Member 3:saimi manasiya
 
-**Reflection:**
+In this lab, I learned the difference between Grid Search and Random Search and how they help improve machine learning models. I understood that Grid Search tests every combination of the selected hyperparameters, while Random Search selects a limited number of combinations from a larger search space. I also learned how five-fold cross-validation helps evaluate model performance more reliably. Both methods achieved the same cross-validation accuracy of 94.29%, but they found different best hyperparameter settings. This activity helped me better understand how different tuning methods work and how they can be used to optimize machine learning models.
 
 ---
 
