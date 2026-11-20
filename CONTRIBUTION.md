@@ -40,9 +40,9 @@ same evaluation conditions, keeping the test set separate from hyperparameter se
 explains that equal search scores do not necessarily mean the selected settings or predictions are
 identical.
 
-### Member 3: [Enter Full Name]
+### Member 3: Saimi Manasiya
+My contribution to the group project was reviewing and comparing Grid Search and Random Search. I examined how Grid Search tested 9 combinations, while Random Search sampled 10 combinations from 150 possible combinations. I reviewed the results and identified the best parameters and accuracy scores for both methods. I also learned how five-fold cross-validation evaluates the models and why we should compare their results without assuming that Random Search is always faster. This helped me understand hyperparameter tuning and contribute to the group’s overall learning.
 
-**Contribution:**
 
 ---
 
