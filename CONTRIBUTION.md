@@ -46,9 +46,15 @@ My contribution to the group project was reviewing and comparing Grid Search and
 
 ---
 
-### Member 4: [Enter Full Name]
+### Member 4: Anavictoria Cavazos
 
-**Contribution:**
+My contribution to this module involves explaining what n_estimators, max_depth, and min_samples_split are. These are known as 
+hyperparameters n_estimators picks a number from the given options to create that number of decision trees, max_depth sets the maximum 
+number of splits, or levels, for each decision tree, and min_samples_split sets the minimum number of training samples, like the stopping 
+point of the growth of the tree. These hyperparameters differ from rules learned during training data(model parameters) in that the 
+hyperparameters are the boundaries set beforehand, but the rules are questions or measurement cutoffs the data writes afterwards from the 
+data. 
+
 
 ---
 
