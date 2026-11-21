@@ -64,9 +64,24 @@ In this lab, I learned the difference between Grid Search and Random Search and 
 
 ---
 
-### Member 4: [Enter Full Name]
+### Member 4: Anavictoria Cavazos
 
-**Reflection:**
+After working on module 11, I learned the difference between model parameters and hyperparameters and how they work in machine learning. 
+I understood more how the hyperparameters control complexity. For instance, increasing the estimators stabilizes predictions without 
+overfitting, and  max_depth as well as min_samples_split help trees not memorize training noise.
+
+Also, this lab helped me understand the difference between a single test split and cross-validation, and see how they impact the 
+results, and what may appear to be a good accuracy of the model can actually just be showing a certain percentage of the model. The 5-
+fold cross-validation gave an accuracy of 94.29% compared to the 100% given by the single test split, but the 5-fold is better because it 
+shows the performance through different folds. This just reinforces the concept of splitting data multiple times to see how good the 
+model really is. 
+
+Aside from this, what I enjoyed learning from this module was the AutoML because it shows a much faster way of writing the preprocessing, 
+tuning hyperparameters, and all the other parts that were used for the coding, written in a much simpler way in a few lines. This is very 
+crucial to know and use in future coding, as it can decrease the time used in coding or programming. Overall, this lab helped me compare 
+certain aspects of machine learning that are new and that are known, and seeing how they differ and apply with the iris dataset, which 
+shows me ways of seeing and handling future datasets. 
+
 
 ---
 
