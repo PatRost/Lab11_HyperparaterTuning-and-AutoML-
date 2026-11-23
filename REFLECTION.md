@@ -87,7 +87,7 @@ shows me ways of seeing and handling future datasets.
 
 ### Member 5: Hashim Sayed Hoosini
 
-Going into this lab, I felt pretty comfortable with the basics, but this was the first time I got to see how tuning actually behaves under the hood. Setting up the grid of hyperparameters for the Random Forest model and watching the search process run was a huge eye-opener. It made me realize how much of machine learning is about finding that sweet spot in model configurations before you even start the final training run.
+Going into this lab, I felt pretty comfortable with the basics, but this was the first time I got to see how tuning actually behaves in practice. Setting up the grid of hyperparameters for the Random Forest model and watching the search process run was highly instructive. It made me realize how much of machine learning is about finding that optimal spot in model configurations before you even start the final training run.
 
 When we started running the experiments, I wasn't entirely sure how much of a difference the search methods would actually make in practice. But comparing Grid Search and Random Search directly turned out to be super interesting. Grid Search felt really systematic since it checks every single combination, but it also felt like a lot of heavy lifting. It was satisfying to watch the progress bar finish, though it made me realize how slow this would get on a larger dataset.
 
@@ -95,4 +95,4 @@ Random Search was the part that surprised me the most because of how efficient i
 
 Using AutoGluon at the end of the lab was wild. Seeing how it ran multiple algorithms like XGBoost, LightGBM, and neural networks, and then stacked them into an ensemble automatically, made me realize how much manual work can be streamlined. It definitely showed me how valuable AutoML tools are for prototyping quickly when you don't have hours to manually tune separate models.
 
-Overall, this lab helped bridge the gap between theory and code for me. Moving from a simple baseline model to systematic searches, and finally to automated pipelines, gave me a clear picture of the tuning process. It makes me feel much more confident about setting up my own modeling pipelines in the future without just relying on default settings.
+Overall, this lab connected the theory with the practical implementation for me. Moving from a simple baseline model to systematic searches, and finally to automated pipelines, gave me a clear picture of the tuning process. It makes me feel much more confident about setting up my own modeling pipelines in the future without just relying on default settings.
