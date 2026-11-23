@@ -87,38 +87,6 @@ shows me ways of seeing and handling future datasets.
 
 ### Member 5: Hashim Sayed Hoosini
 
-## 📝 Knowledge Check
-
-1.  **What is the main difference between a model parameter and a hyperparameter?**
-    * **Model Parameters** are parameters that the machine learning algorithm learns automatically from the training data (for example, weights or bias values). The programmer does not set these.
-    * **Hyperparameters** are settings that must be configured *before* the training process begins. They control how the learning process behaves (such as the number of estimators or the maximum depth of a tree) and cannot be directly learned from data.
-
-2.  **When would you choose to use Grid Search over Random Search, and vice-versa?**
-    * **Grid Search** is ideal when you have a small, well-defined list of hyperparameters to tune and want to exhaustively test every possible combination to guarantee finding the best one within that grid.
-    * **Random Search** is preferred when the search space is large or when you have limited computing time. It randomly samples combinations, which allows it to cover a wider, more diverse parameter space much faster without wasting time training redundant model variations.
-
-3.  **Looking at the AutoGluon leaderboard, which model performed the best? What does AutoML do that makes it so powerful compared to manual tuning?**
-    * In the AutoGluon run, ensemble models (such as `WeightedEnsemble_L2`) typically achieve the highest accuracy by combining predictions from multiple base algorithms.
-    * AutoML is incredibly powerful because it replaces manual, repetitive workflow tasks (like manual feature scaling, preprocessing, training multiple different types of algorithms, and performing separate hyperparameter tuning) with a single, highly automated pipeline that builds a high-performing ensemble in minutes.
-
----
-
-## 📓 Reflective Journal
-
-Going into this lab, I felt pretty comfortable with the basics, but this was the first time I got to see how tuning actually behaves under the hood. Setting up the grid of hyperparameters for the Random Forest model and watching the search process run was a huge eye-opener. It made me realize how much of machine learning is about finding that sweet spot in model configurations before you even start the final training run.
-
-When we started running the experiments, I wasn't entirely sure how much of a difference the search methods would actually make in practice. But comparing Grid Search and Random Search directly turned out to be super interesting. Grid Search felt really systematic since it checks every single combination, but it also felt like a lot of heavy lifting. It was satisfying to watch the progress bar finish, though it made me realize how slow this would get on a larger dataset.
-
-Random Search was the part that surprised me the most because of how efficient it was. Even though it just samples combinations randomly from a distribution, it managed to find equally strong hyperparameters (getting us that same 94.29% validation accuracy) in a fraction of the computation time. It showed me that you don't always need to test every single option to get a solid, optimized setup, which is a great trick to keep in mind for future projects.
-
-Using AutoGluon at the end of the lab was wild. Seeing how it ran multiple algorithms like XGBoost, LightGBM, and neural networks, and then stacked them into an ensemble automatically, made me realize how much manual work can be streamlined. It definitely showed me how valuable AutoML tools are for prototyping quickly when you don't have hours to manually tune separate models.
-
-Overall, this lab helped bridge the gap between theory and code for me. Moving from a simple baseline model to systematic searches, and finally to automated pipelines, gave me a clear picture of the tuning process. It makes me feel much more confident about setting up my own modeling pipelines in the future without just relying on default settings.
-
----
-
-## 🤝 Contribution Journal
-
 Going into this lab, I felt pretty comfortable with the basics, but this was the first time I got to see how tuning actually behaves under the hood. Setting up the grid of hyperparameters for the Random Forest model and watching the search process run was a huge eye-opener. It made me realize how much of machine learning is about finding that sweet spot in model configurations before you even start the final training run.
 
 When we started running the experiments, I wasn't entirely sure how much of a difference the search methods would actually make in practice. But comparing Grid Search and Random Search directly turned out to be super interesting. Grid Search felt really systematic since it checks every single combination, but it also felt like a lot of heavy lifting. It was satisfying to watch the progress bar finish, though it made me realize how slow this would get on a larger dataset.
