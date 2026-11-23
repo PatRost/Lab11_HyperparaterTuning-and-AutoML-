@@ -58,8 +58,13 @@ data.
 
 ---
 
-### Member 5: [Enter Full Name]
+### Member 5: Hashim Sayed Hoosini
 
-**Contribution:**
+Due to my work schedule, I was unable to participate in the original group sessions for this lab. To make sure I didn't fall behind and fully captured the value of this assignment, I took full ownership of the workload and completed the entire lab individually. I spent a significant amount of time setting up, testing, and running every single code cell in this notebook on my own to ensure I didn't miss out on any of the hands-on learning.
 
----
+
+Instead of just running the cells quickly, I analyzed the code blocks and their outputs several times. I went through the GridSearchCV setup to understand how the grid is constructed and how the cross-validation cycles fit together. I then manually ran the RandomizedSearchCV experiments multiple times to compare how the iteration limits changed the search runtime, and I spent time digging into the AutoGluon training logs to understand how the automated ensemble stacking process works under the hood.
+
+
+Working through this by myself forced me to look closely at every error, library installation, and warning message. I also independently worked through and answered all the Knowledge Check questions to verify my understanding of parameters versus hyperparameters, and grid search versus random search. This individual run allowed me to work around my job schedule while still gaining deep, practical experience with hyperparameter tuning and AutoML pipelines.
+
